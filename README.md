@@ -5,7 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for?
 
 - Quick summary
-  - A React app that makes an API to giphy with tests
+  - A React app that makes an API call to giphy with tests
 - Version: 1.0
 - [Author](https://www.linkedin.com/in/felipenavaslederhos)
 
