@@ -29,4 +29,16 @@ describe('Testing the AddCategory component', () => {
 
     expect(setCategories).not.toHaveBeenCalled();
   });
+
+  test('should call the setCategories and clean the input', () => {
+    const value = 'Valor a Buscar';
+
+    wrapper.find('input').simulate('change', { target: { value } });
+    wrapper.find('form').simulate('submit', { preventDefault() {} });
+    const input = wrapper.find('input');
+
+    expect(setCategories).toHaveBeenCalled();
+    expect(setCategories).toHaveBeenCalledWith(expect.any(Function));
+    expect(input.prop('value')).toBe('');
+  });
 });
