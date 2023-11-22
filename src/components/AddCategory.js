@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const AddCategory = ({ setCategories }) => {
 
-    const [inputValue, setInputValue] = useState(''); // ''
+    const [inputValue, setInputValue] = useState('');
 
     const handleInputChange = (e) => {
       setInputValue(e.target.value);
@@ -21,7 +21,7 @@ export const AddCategory = ({ setCategories }) => {
     return (
       <form onSubmit={handleSubmit}>
         <p>{inputValue}</p>
-        <input type="text" value={inputValue} onChange={handleInputChange} />
+        <input type="text" value={inputValue} onChange={handleInputChange} placeholder='Enter a value to find gifs' />
       </form>
     );
 }
