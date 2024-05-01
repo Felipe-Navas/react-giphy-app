@@ -1,7 +1,18 @@
 {
-  "name": "gif-expert-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-giphy-app",
+  "version": "1.0.0",
+  "description": "A Simple React SPA of Gif's",
+  "main": "/src/index.js",
+  "author": "Felipe Navas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-Navas/react-giphy-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe-Navas/react-giphy-app/issues"
+  },
+  "homepage": "https://Felipe-Navas.github.io/react-giphy-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^9.3.2",

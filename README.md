@@ -1,38 +1,64 @@
-# README
+# React Giphy App
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A Simple React SPA of Gif's
 
-### What is this repository for?
+## Description
 
-- Quick summary
-  - A React app that makes an API call to giphy with tests
-- Version: 1.0
-- [Author](https://www.linkedin.com/in/felipenavaslederhos)
+A React app that makes an API call to Giphy with tests
 
-### How do I get set up?
+## Demo
 
-- Summary of set up
+You can explore a live version of React Giphy App at the following URL:
 
-  - `yarn`
-  - `npm install`
+https://Felipe-Navas.github.io/react-giphy-app
 
-- How to run the app?
+## Getting Started
 
-  - `yarn start`
-  - `npm start`
+### Dependencies
 
-- How to run the tests?
+- `npm`
+- `node`
 
-  - `yarn test`
-  - `npm test`
+### Installing
 
-### Contribution guidelines
+- Clone the repository and install dependencies:
 
-- Writing tests
-- Code review
-- Other guidelines
+```
+git clone https://github.com/Felipe-Navas/react-giphy-app.git && cd react-giphy-app && npm install
+```
 
-### Who do I talk to?
+### Executing program
 
-- Repo owner or admin
-- Other community or team contact
+```
+npm start
+```
+
+Preview of the main screen:
+
+<img width="350" src="assets/MainScreen.png" alt="Preview of the main screen" />
+
+### Running tests
+
+```
+npm test
+```
+
+Preview of the Tests:
+
+<img width="350" src="assets/TestsPreview.png" alt="Preview of the Tests" />
+
+## Authors
+
+- [Felipe Navas](https://www.linkedin.com/in/felipenavaslederhos) - [Email](mailto:felipenavas.itec@gmail.com?subject=[GitHub]%react-giphy-app)
+
+## Contributing
+
+1. Fork it (<https://github.com/Felipe-Navas/react-giphy-app/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the [MIT License] - see the LICENSE file for details
